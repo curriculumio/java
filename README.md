@@ -5,7 +5,7 @@
 
 # java
 
-Java curriculum based on apcs.io. 
+Java curriculum based on <meta name="foo" content="bar"> apcs.io. 
 
 ---
 <meta name="lesson" content="drawing">
