@@ -1,6 +1,7 @@
 <meta name="title" content="Drawing">
-<meta name="objective" content="be introduced">
+<meta name="type" content="lab">
 <meta name="text" content="Draw with graphics functions.">
+<meta name="objective" content="be introduced">
 <meta name="author" content="keshavsaharia">
 <meta name="path" content="introduction">
 
