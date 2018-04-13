@@ -5,6 +5,7 @@
 <meta name="path" content="introduction">
 
 ---
+<meta name="objective" content="draw a circle">
 
 # Drawing
 
