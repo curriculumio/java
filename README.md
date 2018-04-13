@@ -31,3 +31,5 @@ testing
 <meta name="template" content="start">
 
 Here is some more data on how to get started.
+
+![](animation-demo.png)
