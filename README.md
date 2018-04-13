@@ -10,6 +10,21 @@
 
 This is an open-source Java curriculum based on the [APCS graphics library](https://apcs.io).
 
+You will learn how to
+- do this
+- and that
+
+And write code like this
+
+```java
+System.out.println("Hey!")
+System.out.println("----")
+```
+
+And `more code` test
+
+testing
+
 ---
 <meta name="template" content="start">
 
