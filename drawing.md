@@ -13,11 +13,11 @@
 
 The goal of this lab is to familiarize yourself with the `Window.out` drawing methods and the general ideas behind animating with the [APCS library](http://apcs.io).
 
-![](java/drawing/example.gif)
+![](image/drawing/example.gif)
 
 ---
 
-## Getting started
+# Getting started
 
 [Create a Java class](../start/#create-class) named `Drawing`. In these labs, the Java code we provide you is for the code block following `public static void main(String[] args) { }`, more commonly referred to as the **main method**.
 
@@ -31,7 +31,7 @@ public class Drawing {
 
 Recall that a [method](java/calling-methods/#method-call) in Java is **called** by writing the name of the method with specific **arguments**, as shown below.
 
-![](java/diagram/methods.png)
+![](image/diagram/methods.png)
 
 The **parameters** of the `Window.out.circle` method are `x`, `y`, and `radius` (in that order), where `x` and `y` give the center coordinate of the circle, and `radius` determines the size of the circle. Try using `Window.out.circle` to output a circle, and change the inputs to see the size and position of the circle change.
 
@@ -47,7 +47,7 @@ Notice that the y-axis is *inverted* - that is, as you make the input for `y` la
 
 ---
 
-#### Simple circle challenge
+# Simple circle challenge
 
 The default window size is 500 pixels by 500 pixels. What inputs would you need to give to <code>Window.out.circle</code> in order to create a circle that is inscribed perfectly within the window?
 
@@ -55,7 +55,7 @@ The default window size is 500 pixels by 500 pixels. What inputs would you need 
 
 ---
 
-## Changing colors
+# Changing colors
 
 You can add multiple calls to `Window.out.circle` to output more than one circle, as shown below. You can also change the drawing color with `Window.out.color`, as shown below. When you change the drawing color, you are effectively picking a new color for all subsequently drawn shapes to be colored in. It's the same as when you draw in real life - pick up a marker of a certain color, draw whatever you want with it, then pick up a different marker and draw whatever you want in that other color.
 
@@ -79,7 +79,7 @@ public class Drawing {
 }
 ```
 
-![](java/drawing/circle-demo.png)
+![](image/drawing/circle-demo.png)
 
 You can also use `Window.out.background` to set the background color of the window, as shown below.
 ```java
@@ -88,13 +88,13 @@ Window.out.background("white");
 
 Notice that the order in which you set colors and draw shapes determines how they layer on top of each other. Computer instructions are run in order, so the circles drawn later in your code show up on top of the circles drawn earlier.
 
-![](java/drawing/rainbow-challenge.png)
+![](image/drawing/rainbow-challenge.png)
 
 Draw the rainbow as shown. After you draw a white background, create circles for each of the colors of the rainbow (red, orange, yellow, green, blue, indigo, and violet).
 
 ---
 
-## Animating
+# Animating
 
 Computer animations are created by displaying images separated by a small pause. You can instruct the computer to wait for a given period of time with the `Window.sleep` method, which takes a number of milliseconds as an input.
 
@@ -144,12 +144,15 @@ Window.out.circle(300, 100, 50);	// x coordinate is now 300
 ```
 
 ---
+<meta name="template" content="challenge">
 
-#### Heartbeat challenge
+# Heartbeat challenge
 
 Animate a heartbeat, where a circle expands and contracts in a *lub dub* motion.
 
-![](java/drawing/heartbeat.gif)
+---
+
+![](image/drawing/heartbeat.gif)
 
 ---
 
@@ -163,7 +166,7 @@ Recall from the reading that you can get the coordinates of the mouse with `Wind
 Window.out.circle( Window.mouse.getX() , Window.mouse.getY() , 20);
 ```
 
-![](java/diagram/window-mouse.png)
+![](image/diagram/window-mouse.png)
 
 Notice the parentheses at the end of `Window.mouse.getX()`. The method `Window.mouse.getX` does not need any inputs, but you must still write the open and closed parentheses `()` to indicate that you are **calling** the method.
 
@@ -278,7 +281,7 @@ public class Drawing {
 
 How would you modify this code to draw a continuous line of overlapping circles, rather than erasing the red ball when redrawing the frame?
 
-![](java/drawing/drawing-challenge.gif)
+![](image/drawing/drawing-challenge.gif)
 
 ---
 
@@ -325,4 +328,4 @@ while (1 < 2) {
 
 Several colors draw simultaneously around the location of your mouse. Remember that increasing the x-position of a circle draws it farther to the right, and increasing the y-position draws it farther downwards.
 
-![](java/drawing/multi-pen-challenge.png)
+![](image/drawing/multi-pen-challenge.png)
