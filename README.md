@@ -5,7 +5,7 @@
 <meta name="color" content="purple">
 <meta name="text" content="Learn computer science through games and animations.">
 <meta name="done" content="false">
-<meta name="lesson" content="drawing,animation">
+<meta name="lesson" content="start,drawing,animation">
 
 ---
 
