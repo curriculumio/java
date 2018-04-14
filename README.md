@@ -2,9 +2,8 @@
 <meta name="subtitle" content="introduction">
 <meta name="objective" content="learn computer science with the Java programming language">
 <meta name="author" content="keshavsaharia">
-<meta name="color" content="purple">
 <meta name="text" content="Learn computer science through games and animations.">
-<meta name="done" content="false">
+<meta name="done" content="true">
 <meta name="lessons" content="start,drawing,painting,animation">
 <meta name="topic" content="cs">
 
