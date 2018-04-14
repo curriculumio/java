@@ -5,6 +5,7 @@
 <meta name="text" content="Learn computer science through games and animations.">
 <meta name="done" content="true">
 <meta name="lessons" content="start,drawing,painting,animation">
+<meta name="paths" content="game-design">
 <meta name="topic" content="cs">
 
 ---
