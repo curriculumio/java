@@ -1,31 +1,29 @@
 <meta name="title" content="Drawing">
 <meta name="type" content="lab">
 <meta name="text" content="Draw with graphics functions.">
-<meta name="objective" content="be introduced">
+<meta name="objective" content="draw characters and scenes with computer instructions">
 <meta name="author" content="keshavsaharia">
 <meta name="path" content="introduction">
 
 ---
-<meta name="objective" content="Get started with APCS graphics">
 
-# Drawing
+In this lab, you will learn about drawing methods and the general ideas behind computer graphics with the [APCS graphics library](http://apcs.io). You will need to [install Eclipse](../start) to run the code in this lab.
 
-> In this lab, you will program a simple application for drawing lines and shapes with your mouse. 
-
-The goal of this lab is to familiarize yourself with the `Window.out` drawing methods and the general ideas behind animating with the [APCS library](http://apcs.io).
-
-![](image/drawing/example.gif)
+![](image/drawing/animation-demo.gif)
 
 ---
+<meta name="objective" content="create a class">
 
 # Getting started
 
-[Create a Java class](../start/#create-class) named `Drawing`. In these labs, the Java code we provide you is for the code block following `public static void main(String[] args) { }`, more commonly referred to as the **main method**.
+> [Create a Java class](../start/#create-class) named `Drawing` that has a `main` method.
+
+In the initial labs, all the instructions we write will be in the curly braces `{` and `}` after the main method (`public static void main`).
 
 ```java
 public class Drawing {
 	public static void main(String[] args) {
-		// Your code here
+		// Instructions go here
 	}
 }
 ```
@@ -47,8 +45,9 @@ public class Drawing {
 Notice that the y-axis is *inverted* - that is, as you make the input for `y` larger, the circle is placed farther down the window.
 
 ---
+<meta name="type" content="challenge">
 
-# Simple circle challenge
+## Simple circle
 
 The default window size is 500 pixels by 500 pixels. What inputs would you need to give to <code>Window.out.circle</code> in order to create a circle that is inscribed perfectly within the window?
 
