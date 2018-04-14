@@ -6,7 +6,7 @@
 <meta name="text" content="Learn computer science through games and animations.">
 <meta name="done" content="false">
 <meta name="lessons" content="start,drawing,animation,test">
-<meta name="topic" content="computer science">
+<meta name="topic" content="cs">
 
 ---
 
