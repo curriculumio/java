@@ -97,6 +97,12 @@ A common error in Java program arises from mismatched curly braces. Indenting in
 
 ---
 
+# Create your own visual puzzle
+
+https://www.reddit.com/r/mildlyinteresting/comments/2az7da/my_laptops_number_pad_has_the_black_dot_illusion/
+
+---
+
 # Printing output
 
 > You can display any number or text value on the window.
